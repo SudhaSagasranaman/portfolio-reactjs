@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactjs/static/css/main.ed7f166b.css",
+    "main.js": "/portfolio-reactjs/static/js/main.360ed8db.js",
+    "static/js/453.ad7768ec.chunk.js": "/portfolio-reactjs/static/js/453.ad7768ec.chunk.js",
+    "static/media/mm7.png": "/portfolio-reactjs/static/media/mm7.05f54915bed1d6357e5d.png",
+    "static/media/mm6.png": "/portfolio-reactjs/static/media/mm6.427d4bb140084c898f23.png",
+    "static/media/mm2-2.png": "/portfolio-reactjs/static/media/mm2-2.d9bfe4f4b87ebabe559a.png",
+    "static/media/mm4.png": "/portfolio-reactjs/static/media/mm4.a1a0ef4d3ed3f62cad1c.png",
+    "static/media/mm3.png": "/portfolio-reactjs/static/media/mm3.1e17b420d485246f2d80.png",
+    "static/media/bootstrap-icons.woff?": "/portfolio-reactjs/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio-reactjs/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/pbi-4.png": "/portfolio-reactjs/static/media/pbi-4.32a44039263131a097fa.png",
+    "static/media/pbi-3.png": "/portfolio-reactjs/static/media/pbi-3.50f9c5d413a813486f08.png",
+    "static/media/mm-1.png": "/portfolio-reactjs/static/media/mm-1.e777f3c23693a5b288a1.png",
+    "static/media/pbi-5.png": "/portfolio-reactjs/static/media/pbi-5.7626c45f9c27b9672475.png",
+    "static/media/pbi-2.png": "/portfolio-reactjs/static/media/pbi-2.89c517ed96e9e0099093.png",
+    "static/media/pbi-1.png": "/portfolio-reactjs/static/media/pbi-1.3ffbabb3b5f6796643cb.png",
+    "static/media/logo.svg": "/portfolio-reactjs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio-reactjs/index.html",
+    "main.ed7f166b.css.map": "/portfolio-reactjs/static/css/main.ed7f166b.css.map",
+    "main.360ed8db.js.map": "/portfolio-reactjs/static/js/main.360ed8db.js.map",
+    "453.ad7768ec.chunk.js.map": "/portfolio-reactjs/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed7f166b.css",
+    "static/js/main.360ed8db.js"
+  ]
+}
