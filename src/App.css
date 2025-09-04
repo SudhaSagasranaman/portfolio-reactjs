@@ -1,0 +1,170 @@
+.container{
+
+  /* color: #1B263B;  dark navy text for contrast */
+   /* background: linear-gradient(135deg, #FFF9C4, #FFD1DC, #B9FBC0); */
+  color: #0D1B2A;  /* dark navy text */
+
+  
+}
+ #navbar{
+
+/* background: linear-gradient(90deg, #6dd5ed, #2193b0); */
+background-color: #f8f5e7
+} 
+#projects{
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  
+}
+
+#home{
+  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
+
+}
+
+#about{background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);;
+
+
+}
+
+#contact{  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
+
+}
+#skills{  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
+
+}
+
+.card-hover:hover {
+  border-radius: 50px;   /* rounded-pill look */
+  background-color: #e3f2fd; /* light blue default */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color:black;
+}
+
+.projects-section {
+  padding: 50px 0;
+}
+
+.custom-card {
+  background-color:rgb(2, 2, 56);
+  color: white;
+  border: 2px solid white;
+  height: 40vh;              /* card height */
+  border-radius: 50px;       /* pill-shaped card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover,.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.3);
+
+}
+
+.custom-card .card-body {
+  background-color:rgb(2, 2, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: small;
+}
+
+.btn-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+.custom-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* ensures the whole image fits without cropping */
+}
+
+/*  Custom View Project button */
+.custom-card .btn {
+  background-color:rgb(2, 2, 56);
+  color: white;              /* white text */
+  border: 2px solid white;   /* white border */
+  border-radius: 50px;       /* pill shape */
+  padding: 8px 20px;
+  font-weight:bold;
+  transition: all 0.3s ease;
+  
+}
+
+.custom-card .btn:hover {
+   border-radius: 50px;   /* rounded-pill look */
+  background-color: #e3f2fd; /* light blue default */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color:black !important;
+}
+/*  Skills Section Cards */
+#skills .card {
+  background-color: gray !important;  /* override Bootstrap's white */
+  color: white !important;            /* white text */
+  border: 2px solid white !important; /* white border */
+  border-radius: 50px !important;     /* pill shape */
+  transition: all 0.3s ease;
+}
+
+/*  Hover effect */
+#skills .card:hover {
+  background-color: #e3f2fd !important; /* light blue on hover */
+  color: black !important;
+  transform: translateY(-5px);          /* lift effect */
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+}
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.1); /* zoom */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2, 2, 56, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.carousel-img {
+  max-height: 170px;    /* all slides same height */
+  width: auto;           /* auto adjust width */
+  object-fit: contain;   /* show full picture without cropping */
+  margin: auto;          /* center inside carousel */
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.carousel-img:hover {
+  transform: scale(1.15); /* zoom effect */
+}
