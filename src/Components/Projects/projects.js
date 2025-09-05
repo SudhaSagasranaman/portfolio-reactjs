@@ -14,8 +14,8 @@ import mm6 from './mm6.png'
 export  function Projects() {
   return (
     <>
-    <section id="projects" className="container py-5">
-      <div className="container text-center">
+    <section id="projects" className="container-fluid py-5">
+      <div className="containe-fluid text-center">
         <h2 className="fw-bold mb-4">Projects</h2>
         <div className="row">
 

@@ -3,7 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export function Skills() {
   return (
-    <section id="skills" className="container py-5">
+    <section id="skills" className="container-fluid py-5">
       <div className="container text-center">
         <h2 className="fw-bold mb-4">Skills</h2>
 

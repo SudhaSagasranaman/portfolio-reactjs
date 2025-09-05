@@ -1,71 +1,41 @@
 import React from "react";
-export function About(){
-    return(  
-            <section id="about" className="container py-5 bg-white">
-        <div className="container d-flex justify-content-center align-items-center text-center w-100 flex-column">
-          <h2 className="fw-bold mb-4">About Me</h2>
-          <p className="mx-auto" style={{ maxWidth: "800px" }}>
-With experience as a C# .NET Developer in R&D projects, I have restarted my professional journey after a career break by reskilling in Data Analytics, Machine Learning, and Frontend Development, showcasing adaptability and continuous learning.</p>
 
-<p>My technical skills include Python, SQL, Power BI, Tableau, Excel, Machine Learning basics, React JS, Bootstrap, and HTML/CSS. I have completed projects such as a Power BI Sales Dashboard and a Milky Mist website built using ReactJS, CSS, and Bootstrap.          </p>
- </div>
- </section>
+export function About() {
+  return (
+    <section id="about" className="py-5">
+      <div className="container">
+        <div className="row align-items-center g-4">
 
+          {/* Left: text */}
+          <div className="col-lg-7 text-center text-lg-start">
+            <h2 className="fw-bold mb-4">About Me</h2>
+            <p className="mb-3">
+              With experience as a <strong>C# .NET Developer</strong> in R&D projects,
+              I restarted my career after a break by reskilling in
+              <strong> Data Analytics, Machine Learning, and Frontend Development</strong>.
+              I enjoy turning data into clear stories and building clean, responsive UIs.
+            </p>
 
+            <p>
+              My stack: <strong>Python, SQL, Power BI, Tableau, Excel</strong> (ML basics),
+              <strong> React, Bootstrap, HTML/CSS</strong>.
+              Projects include a <strong>Power BI Sales Dashboard</strong> and a
+              <strong> Milky Mist website</strong> using React + Bootstrap.
+            </p>
+          </div>
 
+          {/* Right: different illustration */}
+          <div className="col-lg-5 text-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" 
+              alt="Developer at work"
+              className="img-fluid"
+              style={{ maxWidth: "280px" }}
+            />
+          </div>
 
-//         <>
-//          <div class = "container">
-//         <h2> Work Experience</h2>
-        
-//           <div class="row">
-//   <div class="col-sm-6 mb-3 mb-sm-0">
-//     <div class="card">
-//       <div class="card-body">
-//         <h5 class="card-title">Special title treatment</h5>
-//         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-//         <a href="#" class="btn btn-primary">Go somewhere</a>
-//       </div>
-//     </div>
-//   </div>
-//   <div class="col-sm-6">
-//     <div class="card">
-//       <div class="card-body">
-//         <h5 class="card-title">Special title treatment</h5>
-//         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-//         <a href="#" class="btn btn-primary">Go somewhere</a>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-
-         
-
-
-       
-// <h2>Education </h2>
-      
-//             <div class="row">
-//   <div class="col-sm-6 mb-3 mb-sm-0">
-//     <div class="card">
-//       <div class="card-body">
-//         <h5 class="card-title">Special title treatment</h5>
-//         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-//         <a href="#" class="btn btn-primary">Go somewhere</a>
-//       </div>
-//     </div>
-//   </div>
-//   <div class="col-sm-6">
-//     <div class="card">
-//       <div class="card-body">
-//         <h5 class="card-title">Special title treatment</h5>
-//         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-//         <a href="#" class="btn btn-primary">Go somewhere</a>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-//          </div>
-//         </>
-    );
+        </div>
+      </div>
+    </section>
+  );
 }

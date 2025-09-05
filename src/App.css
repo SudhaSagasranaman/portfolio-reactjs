@@ -6,25 +6,25 @@
 
   
 }
- #navbar{
+ /* #navbar{
 
-/* background: linear-gradient(90deg, #6dd5ed, #2193b0); */
-background-color: #f8f5e7
-} 
+/* background: linear-gradient(90deg, #6dd5ed, #2193b0); 
+  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, hsl(326, 85%, 90%));
+}  */
 #projects{
   background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
   
 }
 
-#home{
+/* #home{
   background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
 
-}
+} */
 
-#about{background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);;
+/* #about{background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);;
 
 
-}
+} */
 
 #contact{  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
 
@@ -110,6 +110,7 @@ background-color: #f8f5e7
   transition: all 0.3s ease;
 }
 
+
 /*  Hover effect */
 #skills .card:hover {
   background-color: #e3f2fd !important; /* light blue on hover */
@@ -167,4 +168,313 @@ background-color: #f8f5e7
 
 .carousel-img:hover {
   transform: scale(1.15); /* zoom effect */
+}
+/* =======================
+   Home Section
+======================= */
+#home,
+.home-section {
+  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
+  color: #0D1B2A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+/* =======================
+   Heading
+======================= */
+.hello-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.accent {
+  color: #6b3f00;
+}
+
+.wave {
+  font-size: 1.1em;
+  margin-left: 0.4rem;
+}
+
+/* =======================
+   Role Line
+======================= */
+.role-line {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: rgba(13, 27, 42, 0.85);
+}
+
+.role-item {
+  padding: 0 4px;
+  font-weight: 400;
+}
+
+.role-item.highlight {
+  font-weight: 700;
+  color: #0d1b2a;
+}
+
+.sep {
+  color: rgba(13, 27, 42, 0.4);
+  opacity: 0.7;
+}
+
+/* =======================
+   Buttons
+======================= */
+.btn-connect,
+.btn-resume {
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 8px 18px;
+  min-width: 120px;
+  font-weight: 500;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Connect Now (Yellow) */
+.btn-connect {
+  background: #f7c847;
+  color: #111;
+}
+.btn-connect:hover {
+  background: #e6b734;
+  transform: translateY(-2px);
+}
+
+/* View Resume (Black) */
+.btn-resume {
+  background: #0d1b2a;
+  color: #fff;
+}
+.btn-resume:hover {
+  background: #192a34;
+  transform: translateY(-2px);
+}
+
+/* =======================
+   Social Media Icons
+======================= */
+.socials {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;    /* always in row */
+
+  gap: 14px;
+  flex-wrap: nowrap;
+}
+
+.socials a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Colored icons */
+.socials a:nth-child(1) { background: #111; }    /* GitHub */
+.socials a:nth-child(2) { background: #0A66C2; } /* LinkedIn */
+.socials a:nth-child(3) { background: #1877F2; } /* Facebook */
+.socials a:nth-child(4) { background: #6c757d; } /* Email */
+
+.socials a:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+/* =======================
+   Profile Image
+======================= */
+.home-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(2, 2, 56, 0.15);
+  background: #fff;
+}
+
+/* =======================
+   Responsive
+======================= */
+@media (max-width: 768px) {
+  .hello-title {
+    font-size: 1.8rem;
+    text-align: center;
+    
+   
+  }
+
+  .role-line {
+    font-size: 0.9rem;
+    
+    text-align: center;
+  }
+
+  .home-left {
+    margin-bottom: 18px;
+   
+    text-align: center;
+  }
+
+  .home-right {
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+  }
+
+  .profile-img {
+    max-width: 150px;
+   
+    
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
+
+
+/* Navbar background */
+#navbar {
+  background: linear-gradient(135deg, #D8B4FE, #A5F3FC, #FBCFE8);
+}
+
+/* Brand text */
+#navbar .navbar-brand {
+  color: #6b3f00;
+  font-weight: bold;
+}
+
+/* Normal links */
+#navbar .nav-link {
+  color: #0D1B2A;          /* dark navy */
+  margin: 0 6px;
+  transition: color 0.2s ease;
+}
+
+/* Hover color */
+#navbar .nav-link:hover {
+  color: #6b3f00;
+}
+
+/* Active link (underline only once) */
+#navbar .nav-link.active {
+  color: #6b3f00;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+/* About section */
+#about {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: #0D1B2A;
+}
+
+#about h2 {
+  color: #6b3f00;
+}
+
+#about img {
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+#navbar .nav-link.active {
+  color: #6b3f00;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* Illustration image */
+.contact-prof-img {
+  width: 100%;
+  max-width: 280px;   /* slightly smaller image */
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;
+  border-radius: 10px;
+}
+
+/* Contact card (form container) */
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;   /* wider form */
+  width: 100%;
+  margin: 0 auto;     /* center inside column */
+  padding: 14px;      /* reduced padding (was 18px) */
+}
+
+/* Labels + text inside form */
+.contact-card label {
+  font-size: 0.8rem;   /* smaller font */
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+/* Inputs + textarea */
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  font-size: 0.8rem;   /* smaller font */
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 6px 8px;    /* reduced padding (was 8px 10px) */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Textarea */
+.contact-textarea {
+  min-height: 70px;   /* reduced height (was 90px) */
+  resize: vertical;
+}
+
+/* Submit button */
+.contact-card .btn {
+  display: block;
+  margin: 10px auto 0;
+  font-size: 0.8rem;   /* smaller font */
+  border-radius: 18px;
+  padding: 5px 14px;   /* smaller button */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .contact-prof-img {
+    max-width: 200px;  /* smaller image on mobile */
+  }
+
+  .contact-card {
+    max-width: 95%;    /* take almost full width */
+    padding: 12px;     /* reduce padding further */
+  }
 }
